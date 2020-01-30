@@ -1,35 +1,33 @@
-<?php 
-    $files = scandir('images');
-    $imageNames = array_slice($files, 2);
-?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inspirational Movies</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://i.ytimg.com/vi/SSqgaFE9igo/maxresdefault.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1 class="heading">Your Weekly Inspirational Movies</h1>
-            <h2 class="heading">Inspire us with your 7 favorite inspirational movies for this week!</h2>
-        </header>
 
-        <a class="upload-button" href="upload.php">Upload Image</a>
+<div class="bg"></div>
 
-        <div class="gallery">
-            <?php
-                foreach ($imageNames as $imageName) {
-                    echo "<img src=\"images/$imageName\" alt=\"Gallery Image\">";
-                }
-            ?>
-        </div>
-    </div>
+<p>This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+
 </body>
 </html>
+
