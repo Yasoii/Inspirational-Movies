@@ -10,13 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inspirational Movies</title>
-    <link rel="Inspiring Movies" href="movies.php">
-    <link href="movies.php" rel="Inspiring Movies"> 
+
     <link rel="stylesheet" href="style.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     
 </head>
 <body>
+    <?php include('menu.php'); ?>
     <div class="container">
         <header>
             <h1 class="heading">Inspiring Movies</h1>
