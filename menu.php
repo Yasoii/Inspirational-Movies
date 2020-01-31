@@ -1,6 +1,6 @@
 <div class="navbar">
   <a href="/Inspirational-Movies">Home</a>
-  <a href="#news">News</a>
+  <a href="/Inspirational-Movies">News</a>
   <div class="dropdown">
     <button class="dropbtn">Inspiration sources
       <i class="fa fa-caret-down"></i>
