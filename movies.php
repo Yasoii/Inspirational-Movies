@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inspirational Movies</title>
+    <link rel="Inspiring Movies" href="movies.php">
+    <link href="movies.php" rel="Inspiring Movies"> 
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     
@@ -17,8 +19,8 @@
 <body>
     <div class="container">
         <header>
-            <h1 class="heading">Your Weekly Inspirational Movies</h1>
-            <h2 class="heading">Inspire us with your 7 favorite inspirational movies for this week!</h2>
+            <h1 class="heading">Inspiring Movies</h1>
+            <h2 class="heading">Be inspired everyday!</h2>
         </header>
 
         <a class="upload-button" href="upload.php">Upload Image</a>
