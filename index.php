@@ -1,4 +1,6 @@
 <head>
+<?php include('menu.php'); ?>
+<div class="bg"></div>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,4 +24,6 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
