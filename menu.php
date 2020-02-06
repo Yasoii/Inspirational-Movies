@@ -1,8 +1,8 @@
 <div class="navbar">
   <a href="/Inspirational-Movies">Home</a>
-  <a href="/Inspirational-Movies">News</a>
+  <a href="#news">News</a>
   <div class="dropdown">
-    <button class="dropbtn">Inspiration sources
+    <button class="dropbtn">Dropdown
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
@@ -14,4 +14,4 @@
       
     </div>
   </div>
-</div>
+</div> 
