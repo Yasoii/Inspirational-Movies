@@ -2,7 +2,7 @@
   <a href="/Inspirational-Movies">Home</a>
   <a href="#news">Inspiring News</a>
   <div class="dropdown">
-    <button class="dropbtn">Inspiration
+    <button class="dropbtn">Inspiration sources
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
