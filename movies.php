@@ -23,6 +23,7 @@
     <div class="container">
         <header>
             <h1 class="heading">Inspirational Movies</h1>
+            <h2 class="heading">Upload your favorite cover</h2>
         </header>
 
         <a class="upload-button" href="upload.php">Upload Image</a>
